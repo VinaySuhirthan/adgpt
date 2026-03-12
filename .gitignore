@@ -1,0 +1,34 @@
+# Security
+.env
+.env.local
+.env.*.local
+*.p12
+*.pem
+*.key
+*.secret
+
+# Python Junk
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+
+# Generated Assets
+static/generated/
+*.mp4
+*.png
+*.jpg
+final_ad_film.mp4
+captured_product.jpg
+
+# OS/IDE Junk
+.vscode/
+.DS_Store
+Thumbs.db
+.idea/
+.qodo/
+.git/
+.gitignore_backup
