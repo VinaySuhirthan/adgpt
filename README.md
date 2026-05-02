@@ -3,8 +3,16 @@
 
 **AdGpt** is a high-performance, multimodal conversational AI platform designed for seamless automated content generation. It intelligently switches between high-speed Cloud inference and privacy-focused local models to deliver a robust, scalable experience.
 
-##  The Problem
-Creating high-quality marketing and creative content (Text, Image, Video) often requires juggling multiple disconnected AI tools, leading to fragmented workflows, high subscription costs, and inconsistent output quality.
+## Why did I do this project?
+
+Creating high-quality marketing content—such as text, images, and videos—is still difficult for many small businesses. They often have to rely on multiple disconnected tools, each with its own cost, learning curve, and limitations. This leads to inefficient workflows, inconsistent output quality, and higher expenses, making it harder for them to compete effectively.
+
+Many people might ask: “Why not just use Google Gemini for image and video generation?”
+The issue is that tools like Gemini solve only part of the problem. They don’t provide a unified, production-ready workflow, dynamic switching between cost-efficient local models and high-speed cloud models, or full backend control for integration and scaling.
+
+I built this project to solve that gap by providing a single, unified platform for content generation. Instead of switching between different tools, users can generate everything in one place with a smooth, automated workflow. The system intelligently balances speed, cost, and privacy by switching between cloud-based and local AI models when needed.
+
+The goal is simple: make high-quality ad creation faster, cheaper, and accessible—even for small companies without technical or design expertise.
 
 ##  The Solution
 **AdGpt** provides a unified "Next-Gen Creative Suite" that orchestrates:
@@ -68,3 +76,8 @@ ALLOW_GROQ_FALLBACK=False
    ```bash
    python run.py
    ```
+
+## Snaps shots
+
+<img width="1280" height="673" alt="image" src="https://github.com/user-attachments/assets/c3651823-96fb-4cf2-8566-145e20eb0d48" />
+
